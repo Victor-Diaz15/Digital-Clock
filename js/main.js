@@ -21,7 +21,7 @@ const showClock = () => {
     let textColor = document.getElementById('container');
     if (hour >= 5 & hour <= 7) {
         body.classList.add('morning');
-    } else if (!hour >= 8 & hour <= 18) {
+    } else if (hour >= 8 & hour <= 17) {
         textColor.style.color = 'green';
         body.classList.add('afternoon');
     } else {

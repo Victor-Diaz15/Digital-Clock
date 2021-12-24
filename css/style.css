@@ -1,0 +1,35 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    font-family: sans-serif;
+    font-size: 60px;
+    text-shadow: 0px, 0px, 1px, #333;
+    color: #fff;
+}
+
+.clock-container {
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 350px;
+    max-height: 250px;
+}
+
+#date {
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.morning {
+    background-image: url(/assets/img/img\ morning.jpg);
+}
+
+.afternoon {
+    background-image: url(/assets/img/img\ afternoon.jpg);
+}
+
+.night {
+    background-image: url(/assets/img/night.jpg);
+}
